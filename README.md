@@ -1,4 +1,4 @@
-### Mode-wise Tensor Decomposition
+# Mode-wise Tensor Decomposition
 
 This repository is for our paper:
 
