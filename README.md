@@ -27,10 +27,21 @@ This repo is developed with <a href=https://gitlab.com/tensors/tensor_toolbox/-/
 ```
 
 ## Input Description
-1. X: Inputed tensor. 
-1. R: Targetted multilinear rank.
+1. X : Inputed tensor. 
+1. R : Targetted multilinear rank.
+1. const : Sampling constant in Chidori CUR. Default value: 2
+1. const_R : Sampling constant for core tensor in Fiber CUR. Default value: 2
+1. const_C : Sampling constant for {C_i} in Fiber CUR. Default value: 4
+
+See paper for the details of constant selection.
 
 ## Output Description
+1. Core : Core tensor, i.e., $\mathcal{R}$.
+1. X_sub_mat : Fiber CUR components, i.e., {$C_i U_i^\dagger$}.
 
+To obtain the full estimated tensor: 
+```
+X_est = tensor(ttensor(Core,X_sub_mat));
+```
 
 ## Demo
