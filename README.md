@@ -6,10 +6,20 @@ This repository is for our paper:
 
 
 ## Introduction
-Tensor Toolbox: https://gitlab.com/tensors/tensor_toolbox/-/releases/v3.1
+In this work, we generalize CUR decompositions to high-order tensors under the low-multilinear-rank setting.  
+We provide two verisons of this generalization, namely Chidori and Fiber CUR decompositions.  
+
+
+## Environment
+This repo is developed with <a href=https://gitlab.com/tensors/tensor_toolbox/-/releases/v3.1>Tensor Toolbox v3.1</a>. A future verison of this toolbox may also increase the preformance of our code; however, we cannot guarantee their compatibility.
 
 
 ## Syntex
+
+#### Chidori CUR
+'''
+[Core,X_sub_mat] = Chidori_CUR(X, R, const)
+'''
 
 
 
