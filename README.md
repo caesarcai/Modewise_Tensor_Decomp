@@ -17,14 +17,18 @@ This repo is developed with <a href=https://gitlab.com/tensors/tensor_toolbox/-/
 ## Syntex
 
 #### Chidori CUR
-'''
+```
 [Core,X_sub_mat] = Chidori_CUR(X, R, const)
-'''
+```
 
-
+#### Chidori CUR
+```
+[Core, X_sub_mat] = Fiber_CUR(X, R, const_R, const_C)
+```
 
 ## Input Description
-
+1. X: Inputed tensor. 
+1. R: Targetted multilinear rank.
 
 ## Output Description
 
