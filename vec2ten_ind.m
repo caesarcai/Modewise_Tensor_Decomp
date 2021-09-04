@@ -6,8 +6,9 @@ function P2 = vec2ten_ind(V, n_dims, mod)
 %                           if mod = 1, then V is a vector with each entry in {1,...,12};
 %                           if mod = 2, then V is a vector with each entry in {1,...,8}
 %                           if mod = 3, then V is a vector with each entry in {1,...,6}
+%
+% Output: P2:  a cell which contains the indices for tensor, e.g. the size of P2{1,1} is length(V) * 3
 
-% Output: P2 the indices for tensor e.g. the size of P2 is length(V) X 3
 num_mod = length(n_dims);
 num_indices = length(V);
 if nargin<3
