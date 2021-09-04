@@ -13,7 +13,7 @@ function [Core, X_sub_mat] = Fiber_CUR(X, R, const_R, const_C)
 % const_C: Sampling constant for {C_i}. Default value: 4
 %
 % Outputs:
-% Core : Core tensor, i.e., R.
+% Core : Core tensor, i.e., \nathcal{R}.
 % X_sub_mat : Fiber CUR components, i.e. {C_i U_i^\dagger}.
 %
 % To obtain the full estimated tensor:
