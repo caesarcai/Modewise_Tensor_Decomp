@@ -45,3 +45,5 @@ X_est = tensor(ttensor(Core,X_sub_mat));
 ```
 
 ## Demo
+
+Clone the codes and run `test_tensor_CUR.m` for a test demo.
