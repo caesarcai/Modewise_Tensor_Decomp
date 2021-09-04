@@ -50,14 +50,13 @@ Tim_Chidori = 0;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-disp('Running tensor CUR.')
 for ite = 1:it_max
     %%%% add random noise to the low-multilinear-rank tensor
     E = tensor(sig*randn(N));
     X = X_origin + E;
     clear E
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    %%%%%%%%%%%%%%%%%% Calling Chidori CUR %%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%% Calling Chidori CUR %%%%%%%%%%%%%%%%%%%%
     tic
     [Core_Chidori, X_sub_mat] = Chidori_CUR(X,R,const_Chidori);
     temp = toc;
@@ -68,7 +67,7 @@ for ite = 1:it_max
     
     
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    %%%%%%%%%%%%%%%%%% Calling Fiber CUR %%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%% Calling Fiber CUR %%%%%%%%%%%%%%%%%%%%%
     tic
     [Core_Fiber, X_sub_mat] = Fiber_CUR(X,R,const_Fiber1,const_Fiber2);
     temp = toc;
