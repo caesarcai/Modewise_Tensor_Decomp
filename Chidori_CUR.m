@@ -8,11 +8,11 @@ function [Core, X_sub_mat] = Chidori_CUR(X, R, const)
 % 
 % Inputs:
 % X: Inputed tensor.  
-% R: Targetted multilinear rank.
+% R: Targeted multilinear rank.
 % const: Sampling constant, see paper for details. Default value: 2
 %
 % Outputs:
-% Core : Core tensor, i.e., R.
+% Core : Core tensor, i.e., \mathcal{R}.
 % X_sub_mat : Chidori CUR components, i.e. {C_i U_i^\dagger}.
 %
 % To obtain the full estimated tensor:
