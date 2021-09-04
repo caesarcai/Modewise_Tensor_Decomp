@@ -11,7 +11,7 @@ We provide two verisons of this generalization, namely Chidori and Fiber CUR dec
 
 
 ## Environment
-This repo is developed with <a href=https://gitlab.com/tensors/tensor_toolbox/-/releases/v3.1>Tensor Toolbox v3.1</a>. A future verison of this toolbox may also increase the preformance of our code; however, we cannot guarantee their compatibility.
+This repo is developed with <a href=https://gitlab.com/tensors/tensor_toolbox/-/releases/v3.1>Tensor Toolbox v3.1</a>. A future verison of this toolbox may also increase the peformance of our code; however, we cannot guarantee their compatibility.
 
 
 ## Syntex
