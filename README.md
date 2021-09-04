@@ -18,12 +18,12 @@ This repo is developed with <a href=https://gitlab.com/tensors/tensor_toolbox/-/
 
 #### Chidori CUR
 ```
-[Core,X_sub_mat] = Chidori_CUR(X, R, const)
+[Core,X_sub_mat] = Chidori_CUR(X, R, const);
 ```
 
 #### Chidori CUR
 ```
-[Core, X_sub_mat] = Fiber_CUR(X, R, const_R, const_C)
+[Core, X_sub_mat] = Fiber_CUR(X, R, const_R, const_C);
 ```
 
 ## Input Description
