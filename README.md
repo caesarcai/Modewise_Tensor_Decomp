@@ -34,7 +34,8 @@ This repo is developed with <a href=https://gitlab.com/tensors/tensor_toolbox/-/
 1. const : Sampling constant in Chidori CUR. Default value: 2
 1. const_R : Sampling constant for core tensor in Fiber CUR. Default value: 2
 1. const_C : Sampling constant for {C_i} in Fiber CUR. Default value: 4
-         * See paper for the details of constant selection.
+
+* See paper for the details of constant selection.
 
 ## Output Description
 1. Core : Core tensor, i.e., $\mathcal{R}$.
