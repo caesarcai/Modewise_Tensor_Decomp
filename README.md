@@ -4,6 +4,8 @@ This repository is for our paper:
 
 [1] HanQin Cai, Keaton Hamm, Longxiu Huang, and Deanna Needell. <a href=https://jmlr.org/papers/v22/21-0287.html>Mode-wise Tensor Decompositions: Multi-dimensional Generalizations of CUR Decompositions</a>. *Journal of Machine Learning Research*, 22.185: 1-36, 2021.
 
+###### To display math symbols properly, one may have to install a MathJax plugin. For example, [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima?hl=en).
+
 
 ## Introduction
 In this work, we generalize CUR decompositions to high-order tensors under the low-multilinear-rank setting.  
